@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.vibeme">
+
+    <uses-permission
+        android:name="android.permission.INTERNAL_SYSTEM_WINDOW"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".Vibe_MePersistent_Data"
+        android:allowBackup="true"
+        android:icon="@mipmap/vibe"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/vibe"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.VibeMe">
+        <activity android:name=".login.Register"
+            android:theme="@style/Theme.VibeMe.NoActionBar"/>
+        <activity android:name=".login.LoginWithPhone"
+            android:theme="@style/Theme.VibeMe.NoActionBar"/>
+        <activity android:name=".login.LoginActivity"
+            android:theme="@style/Theme.VibeMe.NoActionBar"/>
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.VibeMe.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".vibes.vibeActivity"
+            android:theme="@style/Theme.VibeMe.NoActionBar"
+            android:parentActivityName=".ui.main.MainActivity" />
+
+        <activity android:name=".find_friend.ProfileActivity"
+            android:theme="@style/Theme.VibeMe.NoActionBar"/>
+
+        <activity
+            android:name=".find_friend.friends"
+            android:theme="@style/Theme.VibeMe.NoActionBar"
+            android:parentActivityName=".ui.main.MainActivity" />
+
+        <activity
+            android:name=".my_settings.VibemeSettings"
+            android:theme="@style/Theme.VibeMe.NoActionBar"
+            android:parentActivityName=".ui.main.MainActivity" />
+
+       <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+
+
+    </application>
+
+</manifest>

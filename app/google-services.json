@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "654689648818",
+    "firebase_url": "https://richardssenyange1102.firebaseio.com",
+    "project_id": "richardssenyange1102",
+    "storage_bucket": "richardssenyange1102.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654689648818:android:bb4fb2a9fb60fd37ff49ab",
+        "android_client_info": {
+          "package_name": "com.example.rfarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654689648818-9ll4ai52fa21vo1rdtmcfbialcfv6ses.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rfarm",
+            "certificate_hash": "dcafe3ab25a1fc5c839fdb46e97736d2eab3ecb5"
+          }
+        },
+        {
+          "client_id": "654689648818-9mg3dffjp9pp99ihpdr4d8b311j3gulr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOq7p5646mI-fYLI1ckWs5FhqNVD4MQmU"
+        },
+        {
+          "current_key": "AIzaSyCa-wxuLghsqpsU7zkmlKsmfW2Ddy8Tmps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654689648818-9mg3dffjp9pp99ihpdr4d8b311j3gulr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654689648818:android:75e46cb9a7ad0389ff49ab",
+        "android_client_info": {
+          "package_name": "com.example.vibeme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654689648818-9mg3dffjp9pp99ihpdr4d8b311j3gulr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOq7p5646mI-fYLI1ckWs5FhqNVD4MQmU"
+        },
+        {
+          "current_key": "AIzaSyCa-wxuLghsqpsU7zkmlKsmfW2Ddy8Tmps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654689648818-9mg3dffjp9pp99ihpdr4d8b311j3gulr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
